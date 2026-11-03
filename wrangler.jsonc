@@ -1,0 +1,19 @@
+{
+  "name": "wishlist-tracker",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-23",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "wishlist.prettyaud.life/*",
+      "zone_name": "prettyaud.life"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
